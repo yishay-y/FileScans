@@ -12,9 +12,9 @@ The following are mandatory for operating the services:
 
 # Executing the services
 To start the program:
-1. Execute i_main.py: Starting Ingest service
-2. Execute p_main.py: Starting P
-3. Execute s_main.py
+1. Execute i_main.py: Starting the Ingest service (In charge of getting new scan requests)
+2. Execute p_main.py: Starting the Process service (In charge of managing scans)
+4. Execute s_main.py: Starting the Status\Data service (In charge of keeping track of the scans' status)
 
 # Using the services
 execute the following (replace <> with data):
