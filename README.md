@@ -3,7 +3,7 @@ Simulation of file scanning
 
 # Dependecies
 The following are mandatory for operating the services:
-1. Flask (flask) - for enabling api calls to the services (must be installed)
+1. flask (Flask) - for enabling api calls to the services (must be installed)
 2. Pickle (dump, load) - for dumping and loading the current state of each service is case of a crash (must be installed)
 3. threading (Thread) - allowing to run multiple tasks simultaneously 
 4. requests (post) - the services are using this to communicate between them
