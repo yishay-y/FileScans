@@ -18,6 +18,6 @@ To start the program:
 
 # Using the services
 execute the following (replace [] with data):
-1. http://127.0.0.1:8080/addscan/[scan name] - to add a new scan to the PROCESS queue (will return the id of the scan)
-2. http://127.0.0.1:3306/status/[scan id] - will return the status of the scan (Accepted, Running, Error. Completed, Not-Found)
+1. http://127.0.0.1:8080/addscan/[scan_name] - to add a new scan to the PROCESS queue (will return the id of the scan)
+2. http://127.0.0.1:3306/status/[scan_id] - will return the status of the scan (Accepted, Running, Error. Completed, Not-Found)
 3. http://127.0.0.1:3306/status - will return the status of all the scans in json format (with the additional info of: id, name, timestamp)
